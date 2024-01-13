@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  background-color: #edf2f7;
+  color: #2f3032;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: #45629e;
+  height: 85px;
+}
+
+div.logo {
+  position: absolute;
+  top: 22px;
+  left: 29px;
+}
+
+div.logo img {
+  height: 56px;
+}
+
+nav.nav-bar {
+  margin-right: 90px;
+  line-height: 22px;
+  padding-top: 10px;
+}
+
+form.login-form {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 20px;
+  color: white;
+}
+
+div.header-font {
+  padding-bottom: 4px;
+}
+
+input.header-input {
+  padding: 2px;
+}
+
+button#loginBtn {
+  position: absolute;
+  right: 18px;
+  top: 36px;
+  padding: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #4865a9;
+  color: white;
+  border: 1px solid rgb(38, 38, 38);
+}
+
+a#forgetPass {
+  float: right;
+  padding-right: 67px;
+  padding-top: 1px;
+  color: rgba(245, 245, 245, 0.568);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+section.container {
+  display: flex;
+}
+
+main.left-section {
+  width: 50%;
+  padding-left: 40px;
+}
+
+h2#leftHeading {
+  padding-top: 70px;
+  font-size: 30px;
+}
+
+div.features {
+  font-size: 17px;
+}
+
+div.features img {
+  height: 45px;
+  opacity: 0.2;
+}
+
+div#feature1 {
+  height: 110px;
+  padding-top: 40px;
+}
+
+p#feature1Font {
+  float: right;
+  margin-right: 142px;
+  margin-top: 14px;
+}
+
+div#feature2 {
+  height: 90px;
+  padding-top: 10px;
+}
+
+p#feature2Font {
+  float: right;
+  margin-right: 185px;
+  margin-top: 10px;
+}
+
+p#feature3Font {
+  float: right;
+  margin-right: 90px;
+  margin-top: 10px;
+}
+
+main.right-section {
+  margin-left: 130px;
+}
+
+h1#rightHeading {
+  margin-top: 20px;
+  font-size: 36px;
+  margin-bottom: -14px;
+}
+
+p#rightSectionPara {
+  font-size: 18px;
+}
+
+form.sign-up input {
+  padding: 8px;
+  font-size: 16px;
+}
+
+select {
+  padding: 4px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  border: 1px dotted black;
+}
+
+button#signUpBtn {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #548e3f;
+  color: white;
+  cursor: pointer;
+  width: 200px;
+  font-size: 13px;
+  margin-top: -7px;
+}
